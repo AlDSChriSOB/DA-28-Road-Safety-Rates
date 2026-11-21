@@ -1,0 +1,14 @@
+{
+  "id": 28,
+  "title": "Road Safety Rates",
+  "question": "How do population-weighted road fatality rates change by year?",
+  "x": "year",
+  "y": "fatal",
+  "mode": "fatality",
+  "caveat": "Rate uses summed fatalities divided by summed population, per 100,000; states repeat over years.",
+  "action": "Check exposure in vehicle miles and state-level differences.",
+  "csv": "https://vincentarelbundock.github.io/Rdatasets/csv/AER/Fatalities.csv",
+  "doc": "https://vincentarelbundock.github.io/Rdatasets/doc/AER/Fatalities.html",
+  "metric_label": "fatalities per 100,000 population",
+  "method": "Population-weighted annual rate = 100,000 \u00d7 total fatalities / total population."
+}

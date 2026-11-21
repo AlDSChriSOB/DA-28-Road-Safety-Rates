@@ -1,0 +1,16 @@
+{
+  "project": "Road Safety Rates",
+  "executed_utc": "2026-11-21T10:14:15.679460+00:00",
+  "source": "https://vincentarelbundock.github.io/Rdatasets/csv/AER/Fatalities.csv",
+  "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/AER/Fatalities.html",
+  "sha256": "ae265c1b14b4a023179b3af5db33b6a659ccf804987f26e8349826d4083ee149",
+  "raw_rows": 336,
+  "analysis_rows": 336,
+  "excluded_rows": 0,
+  "exact_duplicate_rows": 0,
+  "duplicates_policy": "Retained; duplicate values do not necessarily mean duplicate entities.",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8"
+}

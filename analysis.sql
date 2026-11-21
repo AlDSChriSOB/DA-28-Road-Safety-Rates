@@ -1,0 +1,1 @@
+SELECT "year" AS segment, COUNT(*) AS rows_used, 100000.0 * SUM("fatal") / NULLIF(SUM("pop"),0) AS metric, MIN("fatal") AS minimum, MAX("fatal") AS maximum FROM observations GROUP BY "year" ORDER BY "year";
